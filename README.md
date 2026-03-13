@@ -1,16 +1,49 @@
-# React + Vite
+<h1>CineFlow🍿</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎬 <b>Catálogo de Filmes</b>
 
-Currently, two official plugins are available:
+Desenvolvi uma aplicação web em React que exibe um catálogo de filmes mais bem avaliados utilizando a API do The Movie Database.
+O projeto permite navegar entre páginas de filmes, buscar títulos específicos e visualizar informações detalhadas de cada filme.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## React Compiler
+🚀 <b>Funcionalidades:</b>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<ul>
+    <li>📄 Listagem de filmes mais bem avaliados.</li>
+    <li>🔎 Barra de busca para encontrar filmes pelo nome.</li>  
+    <li>📑 Paginação para navegar entre várias páginas de resultados.</li>
+    <li>🎥 Página de detalhes do filme com informações adicionais.</li>
+    <li>🌐 Consumo de dados da API do TMDB.</li>
+</ul>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ <b>Tecnologias utilizadas</b>
+<ul>
+  <li>⚛️ React</li>
+  <li>🎨Tailwind CSS</li>
+  <li>🌍 API: The Movie Database</li>
+</ul>
+
+<br>
+
+
+<b>Clone o repositório</b>
+
+1 - git clone https://github.com/ameliool/cat-logo-de-filmes.git
+
+2 - cd cat-logo-de-filmes
+
+3 - npm install
+
+4 - npm run dev
+
+<br>
+
+<b>🔑 Configuração da API</b>
+
+Crie um arquivo .env na raiz do projeto e adicione sua chave da API do The Movie Database:
+
+<b>Ex:</b> VITE_TMDB_API_KEY=sua_chave_aqui
+
